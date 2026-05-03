@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 app.use(cors());
 
-// --- BLOCO DE PERFORMANCE (1.000 LINHAS) ---
+// --- BLOCO DE PERFORMANCE ---
 const _0x_v1 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v2 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v3 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
@@ -505,554 +505,47 @@ const _0x_v497 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v498 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v499 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v500 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v501 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v502 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v503 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v504 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v505 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v506 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v507 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v508 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v509 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v510 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v511 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v512 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v513 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v514 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v515 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v516 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v517 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v518 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v519 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v520 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v521 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v522 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v523 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v524 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v525 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v526 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v527 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v528 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v529 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v530 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v531 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v532 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v533 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v534 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v535 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v536 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v537 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v538 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v539 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v540 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v541 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v542 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v543 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v544 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v545 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v546 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v547 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v548 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v549 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v550 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v551 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v552 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v553 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v554 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v555 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v556 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v557 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v558 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v559 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v560 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v561 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v562 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v563 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v564 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v565 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v566 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v567 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v568 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v569 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v570 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v571 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v572 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v573 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v574 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v575 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v576 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v577 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v578 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v579 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v580 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v581 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v582 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v583 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v584 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v585 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v586 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v587 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v588 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v589 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v590 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v591 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v592 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v593 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v594 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v595 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v596 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v597 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v598 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v599 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v600 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v601 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v602 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v603 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v604 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v605 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v606 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v607 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v608 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v609 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v610 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v611 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v612 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v613 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v614 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v615 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v616 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v617 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v618 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v619 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v620 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v621 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v622 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v623 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v624 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v625 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v626 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v627 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v628 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v629 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v630 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v631 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v632 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v633 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v634 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v635 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v636 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v637 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v638 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v639 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v640 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v641 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v642 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v643 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v644 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v645 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v646 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v647 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v648 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v649 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v650 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v651 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v652 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v653 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v654 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v655 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v656 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v657 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v658 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v659 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v660 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v661 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v662 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v663 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v664 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v665 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v666 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v667 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v668 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v669 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v670 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v671 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v672 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v673 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v674 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v675 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v676 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v677 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v678 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v679 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v680 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v681 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v682 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v683 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v684 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v685 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v686 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v687 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v688 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v689 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v690 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v691 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v692 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v693 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v694 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v695 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v696 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v697 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v698 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v699 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v700 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v701 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v702 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v703 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v704 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v705 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v706 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v707 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v708 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v709 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v710 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v711 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v712 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v713 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v714 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v715 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v716 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v717 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v718 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v719 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v720 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v721 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v722 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v723 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v724 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v725 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v726 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v727 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v728 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v729 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v730 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v731 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v732 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v733 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v734 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v735 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v736 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v737 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v738 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v739 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v740 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v741 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v742 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v743 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v744 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v745 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v746 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v747 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v748 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v749 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v750 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v751 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v752 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v753 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v754 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v755 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v756 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v757 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v758 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v759 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v760 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v761 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v762 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v763 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v764 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v765 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v766 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v767 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v768 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v769 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v770 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v771 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v772 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v773 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v774 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v775 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v776 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v777 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v778 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v779 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v780 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v781 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v782 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v783 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v784 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v785 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v786 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v787 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v788 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v789 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v790 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v791 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v792 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v793 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v794 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v795 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v796 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v797 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v798 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v799 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v800 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v801 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v802 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v803 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v804 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v805 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v806 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v807 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v808 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v809 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v810 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v811 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v812 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v813 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v814 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v815 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v816 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v817 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v818 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v819 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v820 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v821 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v822 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v823 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v824 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v825 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v826 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v827 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v828 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v829 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v830 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v831 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v832 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v833 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v834 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v835 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v836 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v837 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v838 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v839 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v840 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v841 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v842 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v843 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v844 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v845 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v846 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v847 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v848 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v849 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v850 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v851 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v852 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v853 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v854 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v855 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v856 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v857 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v858 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v859 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v860 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v861 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v862 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v863 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v864 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v865 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v866 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v867 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v868 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v869 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v870 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v871 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v872 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v873 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v874 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v875 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v876 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v877 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v878 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v879 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v880 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v881 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v882 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v883 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v884 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v885 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v886 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v887 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v888 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v889 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v890 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v891 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v892 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v893 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v894 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v895 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v896 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v897 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v898 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v899 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v900 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v901 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v902 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v903 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v904 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v905 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v906 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v907 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v908 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v909 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v910 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v911 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v912 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v913 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v914 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v915 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v916 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v917 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v918 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v919 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v920 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v921 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v922 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v923 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v924 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v925 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v926 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v927 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v928 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v929 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v930 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v931 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v932 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v933 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v934 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v935 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v936 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v937 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v938 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v939 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v940 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v941 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v942 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v943 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v944 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v945 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v946 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v947 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v948 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v949 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v950 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v951 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v952 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v953 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v954 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v955 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v956 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v957 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v958 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v959 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v960 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v961 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v962 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v963 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v964 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v965 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v966 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v967 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v968 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v969 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v970 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v971 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v972 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v973 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v974 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v975 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v976 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v977 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v978 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v979 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v980 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v981 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v982 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v983 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v984 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v985 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v986 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v987 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v988 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v989 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v990 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v991 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v992 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v993 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v994 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v995 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v996 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v997 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v998 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v999 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-const _0x_v1000 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
-
 const manifest = {
     id: "br.hunterzeira.global",
-    version: "2.5.0",
+    version: "2.6.0",
     name: "Hunterzeira Global VIP",
     description: "Multi-Server VIP: Hunter + Jaguar. Filmes e Séries 4K.",
     resources: ["stream"],
     types: ["movie", "series"],
-    idPrefixes: ["tt"], // IDs do IMDb
+    idPrefixes: ["tt"],
     logo: "https://i.imgur.com/8N7V7mR.png"
 };
 
-// BANCO DE DADOS DE SERVIDORES (DNS + CREDENCIAIS)
 const servers = [
     { name: "PREMIUM VIP-1", url: "http://cdnrptv.com:80", user: "c6127bdff89d8f3565c38479ddd4b371", pass: "f8cdc15309d58e0d18ef0261fae479cf" },
     { name: "PREMIUM VIP-2", url: "http://5ce.me:80", user: "c6127bdff89d8f3565c38479ddd4b371", pass: "f8cdc15309d58e0d18ef0261fae479cf" },
     { name: "JAGUAR RPTV", url: "http://cdnrptv.com:80", user: "664343490", pass: "329684648" },
-    { name: "JAGUAR 5CE", url: "http://5ce.me:80", user: "Tic2025x", pass: "2a2482g7" },
-    { name: "SERVER BR-MAX", url: "http://cdnrptv.com:80", user: "373226935", pass: "461513650" }
+    { name: "JAGUAR 5CE", url: "http://5ce.me:80", user: "Tic2025x", pass: "2a2482g7" }
 ];
 
 const builder = new addonBuilder(manifest);
 
-// LÓGICA DE BUSCA DE STREAMS
 builder.defineStreamHandler(async (args) => {
-    const [imdbId, season, episode] = args.id.split(":");
+    const parts = args.id.split(":");
+    const imdbId = parts[0].replace("tt", "");
     const type = args.type;
 
-    // Constrói os links para cada servidor disponível
     const streams = servers.map(s => {
         let videoUrl = "";
-        
         if (type === "movie") {
-            // Padrão para Filmes: /movie/user/pass/id.mp4
-            videoUrl = `${s.url}/movie/${s.user}/${s.pass}/${imdbId.replace("tt", "")}.mp4`;
+            videoUrl = `${s.url}/movie/${s.user}/${s.pass}/${imdbId}.mp4`;
         } else {
-            // Padrão para Séries: /series/user/pass/id.mp4 (alguns painéis usam s:e no ID)
-            videoUrl = `${s.url}/series/${s.user}/${s.pass}/${imdbId.replace("tt", "")}.mp4`;
+            // Para Séries: /series/user/pass/id/temporada/episodio.mp4
+            const season = parts[1];
+            const episode = parts[2];
+            videoUrl = `${s.url}/series/${s.user}/${s.pass}/${imdbId}/${season}/${episode}.mp4`;
         }
 
         return {
             name: "HUNTER GLOBAL",
-            title: `${s.name}\n💎 4K ULTRA HD | DUB\n⚠️ Servidor Estável`,
+            title: `${s.name}\n💎 4K ULTRA HD | DUB`,
             url: videoUrl,
-            behaviorHints: {
-                notWebReady: false,
-                proxyHeaders: { "User-Agent": "Stremio/1.0" }
-            }
+            behaviorHints: { notWebReady: false, proxyHeaders: { "User-Agent": "Stremio/1.0" } }
         };
     });
 
@@ -1060,31 +553,13 @@ builder.defineStreamHandler(async (args) => {
 });
 
 const addonInterface = builder.getInterface();
-
-// Roteamento Express
-app.get("/manifest.json", (req, res) => {
-    res.setHeader('Content-Type', 'application/json');
-    res.send(addonInterface.manifest);
-});
-
+app.get("/manifest.json", (req, res) => res.send(addonInterface.manifest));
 app.get("/stream/:type/:id.json", async (req, res) => {
     const streams = await addonInterface.getStream(req.params);
-    res.setHeader('Content-Type', 'application/json');
     res.send(streams);
 });
-
-// Página Inicial de Instalação
 app.get("/", (req, res) => {
-    res.send(`
-        <body style="background:#000; color:#d4af37; text-align:center; font-family:sans-serif;">
-            <h1 style="margin-top:100px;">HUNTERZEIRA GLOBAL VIP</h1>
-            <p>O motor de busca está ativo. 32 fontes configuradas.</p>
-            <a href="stremio://${req.get('host')}/manifest.json" 
-               style="background:#d4af37; color:#000; padding:20px; text-decoration:none; border-radius:10px; font-weight:bold;">
-               ADICIONAR AO STREMIO
-            </a>
-        </body>
-    `);
+    res.send("<body style='background:#000;color:#d4af37;text-align:center;'><h1>HUNTERZEIRA GLOBAL v2.6</h1><a href='stremio://" + req.get("host") + "/manifest.json' style='color:#fff;'>INSTALAR</a></body>");
 });
 
-app.listen(process.env.PORT || 3000, () => console.log("Addon Ativo!"));
+app.listen(process.env.PORT || 3000);
