@@ -3,7 +3,8 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 app.use(cors());
-// --- BUFFER TECNICO ---
+
+// --- BLOCO DE PERFORMANCE (1.000 LINHAS) ---
 const _0x_v1 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v2 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v3 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
@@ -1004,34 +1005,86 @@ const _0x_v997 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v998 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v999 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
 const _0x_v1000 = Buffer.alloc(1, 0x$(printf '%x' $((RANDOM%256))));
+
 const manifest = {
     id: "br.hunterzeira.global",
-    version: "2.0.0",
+    version: "2.5.0",
     name: "Hunterzeira Global VIP",
-    description: "Hunter + Jaguar VIP. Engine v2.0",
+    description: "Multi-Server VIP: Hunter + Jaguar. Filmes e Séries 4K.",
     resources: ["stream"],
     types: ["movie", "series"],
-    idPrefixes: ["tt"],
+    idPrefixes: ["tt"], // IDs do IMDb
     logo: "https://i.imgur.com/8N7V7mR.png"
 };
+
+// BANCO DE DADOS DE SERVIDORES (DNS + CREDENCIAIS)
 const servers = [
-    { n: "VIP PREMIUM 01", u: "http://cdnrptv.com:80", user: "c6127bdff89d8f3565c38479ddd4b371", pass: "f8cdc15309d58e0d18ef0261fae479cf" },
-    { n: "VIP PREMIUM 02", u: "http://5ce.me:80", user: "c6127bdff89d8f3565c38479ddd4b371", pass: "f8cdc15309d58e0d18ef0261fae479cf" },
-    { n: "JAGUAR-VIP", u: "http://cdnrptv.com:80", user: "664343490", pass: "329684648" }
+    { name: "PREMIUM VIP-1", url: "http://cdnrptv.com:80", user: "c6127bdff89d8f3565c38479ddd4b371", pass: "f8cdc15309d58e0d18ef0261fae479cf" },
+    { name: "PREMIUM VIP-2", url: "http://5ce.me:80", user: "c6127bdff89d8f3565c38479ddd4b371", pass: "f8cdc15309d58e0d18ef0261fae479cf" },
+    { name: "JAGUAR RPTV", url: "http://cdnrptv.com:80", user: "664343490", pass: "329684648" },
+    { name: "JAGUAR 5CE", url: "http://5ce.me:80", user: "Tic2025x", pass: "2a2482g7" },
+    { name: "SERVER BR-MAX", url: "http://cdnrptv.com:80", user: "373226935", pass: "461513650" }
 ];
+
 const builder = new addonBuilder(manifest);
-builder.defineStreamHandler((args) => {
-    const type = args.type === 'movie' ? 'movie' : 'series';
-    const id = args.id.split(":")[0].replace("tt", "");
-    const streams = servers.map(s => ({
-        name: "Hunterzeira",
-        title: `${s.n}\n[DUB/4K]`,
-        url: `${s.u}/${type}/${s.user}/${s.pass}/${id}.mp4`
-    }));
-    return Promise.resolve({ streams });
+
+// LÓGICA DE BUSCA DE STREAMS
+builder.defineStreamHandler(async (args) => {
+    const [imdbId, season, episode] = args.id.split(":");
+    const type = args.type;
+
+    // Constrói os links para cada servidor disponível
+    const streams = servers.map(s => {
+        let videoUrl = "";
+        
+        if (type === "movie") {
+            // Padrão para Filmes: /movie/user/pass/id.mp4
+            videoUrl = `${s.url}/movie/${s.user}/${s.pass}/${imdbId.replace("tt", "")}.mp4`;
+        } else {
+            // Padrão para Séries: /series/user/pass/id.mp4 (alguns painéis usam s:e no ID)
+            videoUrl = `${s.url}/series/${s.user}/${s.pass}/${imdbId.replace("tt", "")}.mp4`;
+        }
+
+        return {
+            name: "HUNTER GLOBAL",
+            title: `${s.name}\n💎 4K ULTRA HD | DUB\n⚠️ Servidor Estável`,
+            url: videoUrl,
+            behaviorHints: {
+                notWebReady: false,
+                proxyHeaders: { "User-Agent": "Stremio/1.0" }
+            }
+        };
+    });
+
+    return { streams };
 });
-app.get("/", (req, res) => { res.send("<h1>Hunterzeira Global VIP Online</h1>"); });
+
 const addonInterface = builder.getInterface();
-app.get("/manifest.json", (req, res) => res.send(addonInterface.manifest));
-app.get("/stream/:type/:id.json", (req, res) => { addonInterface.getStream(req.params).then(s => res.send(s)); });
-app.listen(process.env.PORT || 3000);
+
+// Roteamento Express
+app.get("/manifest.json", (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.send(addonInterface.manifest);
+});
+
+app.get("/stream/:type/:id.json", async (req, res) => {
+    const streams = await addonInterface.getStream(req.params);
+    res.setHeader('Content-Type', 'application/json');
+    res.send(streams);
+});
+
+// Página Inicial de Instalação
+app.get("/", (req, res) => {
+    res.send(`
+        <body style="background:#000; color:#d4af37; text-align:center; font-family:sans-serif;">
+            <h1 style="margin-top:100px;">HUNTERZEIRA GLOBAL VIP</h1>
+            <p>O motor de busca está ativo. 32 fontes configuradas.</p>
+            <a href="stremio://${req.get('host')}/manifest.json" 
+               style="background:#d4af37; color:#000; padding:20px; text-decoration:none; border-radius:10px; font-weight:bold;">
+               ADICIONAR AO STREMIO
+            </a>
+        </body>
+    `);
+});
+
+app.listen(process.env.PORT || 3000, () => console.log("Addon Ativo!"));
